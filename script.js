@@ -1,22 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  //Buttons
-  const startBtn = document.getElementById("start-btn");
-  const nextBtn = document.getElementById("next-btn");
-  const restartBtn = document.getElementById("restart-btn");
-
-  //containers
-
-  const questionaireContainer = document.getElementById("question-container");
-  const resultContainer = document.getElementById("result-container");
-  // Assets
-  const questionstext = document.getElementById("question-text");
-  const choicesList = document.getElementById("choices-list");
-
-  // Displays
-  const scoreDisplay = document.getElementById("score");
-  // storage
-
-  //const score = [];
   const questions = [
     {
       question: "What is the capital of France?",
@@ -44,6 +26,25 @@ document.addEventListener("DOMContentLoaded", () => {
       answer: "Port-au-Prince",
     },
   ];
+  //Buttons
+  const startBtn = document.getElementById("start-btn");
+  const nextBtn = document.getElementById("next-btn");
+  const restartBtn = document.getElementById("restart-btn");
+
+  //containers
+
+  const questionaireContainer = document.getElementById("question-container");
+  const resultContainer = document.getElementById("result-container");
+  // Assets
+  const questionstext = document.getElementById("question-text");
+  const choicesList = document.getElementById("choices-list");
+
+  // Displays
+  const scoreDisplay = document.getElementById("score");
+  // storage
+
+  //const score = [];
+
   let currentQuestionIndex = 0;
   let score = 0;
 
