@@ -1,3 +1,5 @@
+//Create out side object -- understand how to make it work without node
+
 const questions = [
   {
     question: "What is the capital of France?",
